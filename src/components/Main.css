@@ -1,0 +1,16 @@
+/* Main.css */
+#main {
+    display: flex; /* Align logos side-by-side */
+    align-items: center; /* Vertically center logos */
+    gap: 10px; /* Space between logos */
+    position: absolute; /* Position relative to the nearest positioned ancestor or viewport */
+    left: 10px; /* Position 10px from the left edge of the container or viewport */
+    top: 10px; /* Position 10px from the top edge of the container or viewport */
+    padding: 10px; /* Padding around logos */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.logo {
+    max-width: 200px; /* Adjust size to be smaller */
+    height: auto; /* Maintain aspect ratio */
+}

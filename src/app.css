@@ -1,0 +1,11 @@
+/* App.css */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #800000, #FFD700); /* Maroon to Gold gradient */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+.app-container {
+    display: flex;
+}
